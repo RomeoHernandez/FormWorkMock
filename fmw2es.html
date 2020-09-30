@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <body>
+       
+       <h1>Registration Form</h1>
+       
+       <h4>Please select your language:</h4>
+       <button onclick="window.location.href= 'file:///C:/Users/Romeo/OneDrive/Desktop/Dev/Formsmockwork/fmw2.html';">English</button>
+
+        <form action="/action_page.php">
+            <br>
+            <h4>Information about you</h4>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Doe"><br>
+            <label for="eaddress">Email Address</label><br>
+            <input type="email" id="eaddress" name="eaddress" placeholder="JohnDoe@gmail.com"><br>
+            <label for="password">password</label><br>
+            <input type="password" id="password" name="password" placeholder="********"><br>
+            <label for="cpassword">Confirm Password</label><br>
+            <input type="password" id="cpassword" name="cpassword" placeholder="********"><br>
+            <label for="saddress1">Street Address 1</label><br>
+            <input type="text" id="saddress1" name="saddress1" placeholder="xxxx N Gym St"><br>
+            <label for="saddress2">Street Address 2</label><br>
+            <input type="text" id="saddress2" name="saddress2" placeholder="xxxx S Workout RD"><br>
+            <label for="city">City</label><br>
+            <input type="text" id="city" name="city" placeholder="Birmingham"><br>
+            <label for="state">State</label><br>
+            <input type="text" id="state" name="state" placeholder="Alabama"><br>
+            <label for="zcode">Zip Code</label><br>
+            <input type="text" id="zcode" name="zcode" placeholder="xxxxx"><br>
+             <h4>Services wanted</h4>
+            <input type="checkbox" id="service1" name="service1" value="GymWO">
+            <label for="service1">Gym access</label><br>
+            <input type="checkbox" id="service2" name="service2" value="AHWO">
+            <label for="service2">At home workout instruction</label><br>
+            <input type="checkbox" id="service3" name="service3" value="DietPlan">
+            <label for="service3">Dieting Plan</label> <br>
+            <h4>Time for services to be implemented daily</h4>
+  <select name="time" id="time">
+    <option value="volvo">6AM-9AM</option>
+    <option value="saab">9AM-12PM</option>
+    <option value="opel">12PM-3PM</option>
+    <option value="audi">3PM-6PM</option>
+  </select> <br> <br>
+
+            <br> <input type="submit" value="Submit">
+          </form>
+    </body>
+</html>
